@@ -23,6 +23,7 @@ geotab.addin.fleetPulse = () => {
     let render = () => {
         this.title ="Code Base Rendered";
         console.log(this.title);
+        loadUI();
     }
   
     /**
