@@ -1,7 +1,7 @@
 /**
 * @returns {{initialize: Function, focus: Function, blur: Function}}
 */
-geotab.addin.kruzr360 = () => {
+geotab.addin.fleetPulse = () => {
     'use strict';
   
     /* Scope variables */
@@ -39,7 +39,7 @@ geotab.addin.kruzr360 = () => {
         * Use this function to initialize the Add-In's state such as default values or
         * make API requests (Geotab or external) to ensure interface is ready for the user.
         */
-        initialize(freshApi: any, freshState: any, callback: () => void) {
+        initialize(freshApi, freshState, callback) {
   
             api = freshApi;
             state = freshState;
@@ -56,7 +56,7 @@ geotab.addin.kruzr360 = () => {
         * Use this function to refresh state such as vehicles, zones or exceptions which may have
         * been modified since it was first initialized.
         */
-        focus(freshApi: any, freshState: any): void {
+        focus(freshApi, freshState) {
             console.log("Back In AddIn");
             api = freshApi;
             state = freshState;
