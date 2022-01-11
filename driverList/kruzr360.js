@@ -5,8 +5,8 @@ class Kruzr360DOM {
     }
 
     sampleContent = {
-        title : "New",
-        subTitle : "Addition",
+        title : "Drivers",
+        subTitle : "",
         content : {
             labels : ["Total Trips","Distance in Kms","Drive Time in Hrs","Drivers","Vehicles"],
             values : [26,1811.70,11.03,27,null]
